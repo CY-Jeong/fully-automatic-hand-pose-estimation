@@ -42,17 +42,17 @@ To optimize a model
 
 ## Results
 ### Segmentation with grabcut, no training with annotation
-<img src='imgs/seg/0.jpg' width=150 height=100><img src='imgs/seg/1.jpg' width=150 height=100><img src='imgs/seg/2.jpg' width=150 height=100><img src='imgs/seg/3.jpg' width=150 height=100>
+<img src='imgs/seg/0.jpg' width=300 height=200><img src='imgs/seg/1.jpg' width=300 height=200><img src='imgs/seg/2.jpg' width=300 height=200><img src='imgs/seg/3.jpg' width=300 height=200>
 
 ### Improving pose with multi view in first frame
 <img src='imgs/improving/0.png' width=300 height=200>              <img src='imgs/improving/0_0.png' width=300 height=200><br>
 <img src='imgs/improving/1.png' width=300 height=200>              <img src='imgs/improving/1_1.png' width=300 height=200>
 
 ### Optimizing pose with multi view segmentation after first frame
-<img src='imgs/orig/0.png' width=150 height=100><img src='imgs/orig/1.png' width=150 height=100><img src='imgs/orig/2.png' width=150 height=100><img src='imgs/orig/3.png' width=150 height=100><img src='imgs/orig/4.png' width=150 height=100>
+<img src='imgs/orig/0.png' width=300 height=200><img src='imgs/orig/1.png' width=300 height=200><img src='imgs/orig/2.png' width=300 height=200><img src='imgs/orig/3.png' width=300 height=200><img src='imgs/orig/4.png' width=300 height=200>
 
 ### Synthesizing background
-<img src='imgs/synback/0.png' width=150 height=100><img src='imgs/synback/1.png' width=150 height=100><img src='imgs/synback/2.png' width=150 height=100>
+<img src='imgs/synback/0.png' width=300 height=200><img src='imgs/synback/1.png' width=300 height=200><img src='imgs/synback/2.png' width=300 height=200>
 
 ## Related Projects
 **[STB](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yujun_Cai_Weakly-supervised_3D_Hand_ECCV_2018_paper.pdf)** | **[FPHAB](https://openaccess.thecvf.com/content_cvpr_2018/papers/Garcia-Hernando_First-Person_Hand_Action_CVPR_2018_paper.pdf)** | **[Honnotatae](https://arxiv.org/pdf/1907.01481.pdf)** | **[Obman](https://ps.is.mpg.de/uploads_file/attachment/attachment/499/obman.pdf)** | **[Freihand](https://arxiv.org/pdf/1909.04349.pdf)** | **[Interhand](https://arxiv.org/pdf/2008.09309.pdf)** | **[Humbi](https://arxiv.org/pdf/1812.00281.pdf)**
