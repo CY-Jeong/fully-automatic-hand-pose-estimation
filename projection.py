@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 import math
+import matplotlib.pyplot as plt
+from utils import plot_hand
 
 class Projection(object):
     def __init__(self, calibrations, images, image_points, boxes):
@@ -109,21 +111,20 @@ class Projection(object):
         self.point3d = np.array(point3d)
 
         ###
-        for i in range(15):
-            for k in range(self.len_points):
-                impoint1, _ = cv2.projectPoints(self.point3d,
-                                                np.reshape(cal["extrinsic"][str(i)]['rvec'], (3, 1)),
-                                                np.reshape(cal["extrinsic"][str(i)]['tvec'], (3, 1)),
-                                                cal['cam_matrix'],
-                                                cal['distortion_coefficients'].reshape(1, 5))
-            import matplotlib.pyplot as plt
-            from utils import plot_hand
-            fig = plt.figure(1)
-            ax = fig.add_subplot(111)
-            ax.imshow(self.images[i])
-            plot_hand(impoint1.squeeze(), ax)
-            #plt.show()
-            plt.clf()
+        # for i in range(15):
+        #     for k in range(self.len_points):
+        #         impoint1, _ = cv2.projectPoints(self.point3d,
+        #                                         np.reshape(cal["extrinsic"][str(i)]['rvec'], (3, 1)),
+        #                                         np.reshape(cal["extrinsic"][str(i)]['tvec'], (3, 1)),
+        #                                         cal['cam_matrix'],
+        #                                         cal['distortion_coefficients'].reshape(1, 5))
+
+            # fig = plt.figure(1)
+            # ax = fig.add_subplot(111)
+            # ax.imshow(self.images[i])
+            # plot_hand(impoint1.squeeze(), ax)
+            # #plt.show()
+            # plt.clf()
 
     def project2d(self):
         for camera in range(self.len):

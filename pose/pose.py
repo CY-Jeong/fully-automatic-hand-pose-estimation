@@ -79,16 +79,19 @@ class HMRTrainer(object):
             image_skeleton = skeletons_in.squeeze().tolist()
             image_skeletons.append(skeletons_in.squeeze().tolist())
 
-            fig = plt.figure(1)
-            ax1 = fig.add_subplot(111)
-            ax1.imshow(sample_original.squeeze(0).permute(1, 2, 0))
-            plot_hand(skeletons_in[0], ax1)
+            # fig = plt.figure(1)
+            # ax1 = fig.add_subplot(111)
+            # ax1.imshow(sample_original.squeeze(0).permute(1, 2, 0))
+            # plot_hand(skeletons_in[0], ax1)
             #plt.show()
-            plt.clf()
-            # if not os.path.exists("/mnt/sdb/3dmesh/save/p"+str(name)):
-            #     os.makedirs("/mnt/sdb/3dmesh/save/p"+str(name))
-            # with open("/mnt/sdb/3dmesh/save/p"+str(name)+"/"+str(self.frame)+"p.json", 'w') as p:
-            #     json.dump(image_skeleton, p)
+
+            # from config_opt import cfg
+            # result = f"{cfg.RESULT_DIR}/{idx}th_pose"
+            # if not os.path.exists(result):
+            #     os.makedirs(result)
+            # plt.savefig(os.path.join(result, f"0.png"))
+            # plt.clf()
+
         return image_skeletons
 
 
