@@ -43,7 +43,8 @@ To optimize a model
 <img src='imgs/seg/0.jpg' width=150 height=100><img src='imgs/seg/1.jpg' width=150 height=100><img src='imgs/seg/2.jpg' width=150 height=100><img src='imgs/seg/3.jpg' width=150 height=100>
 
 ### Improving pose with multi view in first frame
-<img src='imgs/improving/0.png' width=150 height=100><img src='imgs/improving/0_0.png' width=150 height=100><img src='imgs/improving/1.png' width=150 height=100><img src='imgs/improving/1_1.png' width=150 height=100>
+<img src='imgs/improving/0.png' width=300 height=200>       ->       <img src='imgs/improving/0_0.png' width=300 height=200><br>
+<img src='imgs/improving/1.png' width=300 height=200>       ->       <img src='imgs/improving/1_1.png' width=300 height=200>
 
 ### Optimizing pose with multi view segmentation after first frame
 <img src='imgs/orig/0.png' width=150 height=100><img src='imgs/orig/1.png' width=150 height=100><img src='imgs/orig/2.png' width=150 height=100><img src='imgs/orig/3.png' width=150 height=100><img src='imgs/orig/4.png' width=150 height=100>
