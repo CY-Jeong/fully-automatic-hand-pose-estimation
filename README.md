@@ -40,13 +40,13 @@ To optimize a model
 
 ## Results
 ### Segmentation with grabcut, no training with annotation
-<img src='imgs/a.png' width=100 height=200>
+<img src='imgs/0.jpg' width=150 height=100><img src='imgs/1.jpg' width=150 height=100><img src='imgs/2.jpg' width=150 height=100><img src='imgs/3.jpg' width=150 height=100>
 
 ### Improving pose with multi view in first frame
-<img src='imgs/a.png' width=100 height=200>
+<img src='imgs/0.png' width=150 height=100><img src='imgs/0_0.png' width=150 height=100><img src='imgs/1.png' width=150 height=100><img src='imgs/1_1.png' width=150 height=100>
 
 ### Optimizing pose with multi view segmentation after first frame
-<img src='imgs/a.png' width=100 height=200>
+<img src='imgs/0.png' width=150 height=100><img src='imgs/1.png' width=150 height=100><img src='imgs/2.png' width=150 height=100><img src='imgs/3.png' width=150 height=100><img src='imgs/4.png' width=150 height=100>
 
 ### Synthesizing background
-<img src='imgs/a.png' width=100 height=200>
+<img src='imgs/0.png' width=150 height=100><img src='imgs/1.png' width=150 height=100><img src='imgs/2.png' width=150 height=100>
