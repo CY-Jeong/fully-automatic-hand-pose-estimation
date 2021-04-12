@@ -4,6 +4,7 @@ Pytorch implementation of ***Fully-Automatic-Hand-Pose-Estimation*** which estim
 There are so many papers to get pose annotation without manual method. Those are datasets, and we can use those datasets to raise
 performance. You can see link related to make datasets in below. <br>
 
+
 ## Prerequisites
 - Linux or macOS
 - python3+
@@ -51,3 +52,6 @@ To optimize a model
 
 ### Synthesizing background
 <img src='imgs/synback/0.png' width=150 height=100><img src='imgs/synback/1.png' width=150 height=100><img src='imgs/synback/2.png' width=150 height=100>
+
+# Sponser
+**[ETRI](www.etri.re.kr)** (funded instruments)
