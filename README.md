@@ -5,6 +5,7 @@ There are so many papers to get pose annotation without manual method. Those are
 performance. You can see link related to make datasets in below. <br>
 
 
+
 ## Prerequisites
 - Linux or macOS
 - python3+
@@ -52,6 +53,9 @@ To optimize a model
 
 ### Synthesizing background
 <img src='imgs/synback/0.png' width=150 height=100><img src='imgs/synback/1.png' width=150 height=100><img src='imgs/synback/2.png' width=150 height=100>
+
+## Related Projects
+**[STB](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yujun_Cai_Weakly-supervised_3D_Hand_ECCV_2018_paper.pdf)** | **[FPHAB](https://openaccess.thecvf.com/content_cvpr_2018/papers/Garcia-Hernando_First-Person_Hand_Action_CVPR_2018_paper.pdf)** | **[Honnotatae](https://arxiv.org/pdf/1907.01481.pdf)** | **[Obman](https://ps.is.mpg.de/uploads_file/attachment/attachment/499/obman.pdf)** | **[Freihand](https://arxiv.org/pdf/1909.04349.pdf)** | **[Interhand](https://arxiv.org/pdf/2008.09309.pdf)** | **[Humbi](https://arxiv.org/pdf/1812.00281.pdf)**
 
 # Sponser
 **[ETRI](www.etri.re.kr)** (funded instruments)
