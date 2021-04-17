@@ -19,7 +19,7 @@ cd fully-automatic-hand-pose-estimation
 - Conda users, ```conda env create -f environment.yml```
 
 ## Usage
-First you need to get intrinsic, extrinsic files from **[calibration](https://github.com/CY-Jeong/camera-calibration)** which make calibration files with multiview.
+First you need to get intrinsic, extrinsic files from **[calibration](https://github.com/CY-Jeong/camera-calibration)** which makes calibration files with multiview.
 If you do calibration, you can have calibration information.
 And you must get **[MANO parameter pkl file](https://mano.is.tue.mpg.de/)** and **[CPM pretrained pose parameter](https://github.com/lmb-freiburg/hand3d)**.
 So your final directory should be 
